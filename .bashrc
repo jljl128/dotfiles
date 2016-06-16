@@ -14,4 +14,5 @@ export LC_ALL=en_US.UTF-8
 [ -s "~/.dnx/dnvm/dnvm.sh" ] && . "~/.dnx/dnvm/dnvm.sh" # Load dnvm
 
 alias ll="ls -alF"
+alias mvim="open -a MacVim"
 
