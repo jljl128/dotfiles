@@ -5,7 +5,7 @@ hg_prompt() {
     fi
 }
 
-PS1='\e[0;33m\w $(hg_prompt)\n\$ \e[m'
+PS1='\e[0;33m\w $(hg_prompt)\e[m\n\$ '
 
 export LC_CTYPE=C
 export LANG=C
